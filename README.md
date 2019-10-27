@@ -11,7 +11,7 @@ The game does not require installation. All that is to be done is just to downlo
 ## Running the app
 to run the app double click or right click the index.html and run it with any web browser of your choice.
 
-You can play select either to play computer vs computer mode or player vs computer mode.
+You can play select to play computer vs computer mode or player vs computer mode.
 
 The win result is displayed in green color.
 The lose result is displayed in red.
