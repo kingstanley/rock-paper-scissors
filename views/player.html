@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rock Paper Scissors Web Game</title>
+    
+    <link rel="stylesheet" href="../css/main.css"/>
+</head>
+<body class="main">
+    <div class="game-area">
+    <a class="back" href="../index.html">Change Mode</a>
+    <div id="score-board">
+            <div id="score"></div> <br/>
+            <div id="times"></div>
+        </div>
+        <button id="replay" class="btn play-again" onclick="game.playAgain()">Play Again</button>
+        <div id="result-div"></div>
+        <hr/>
+        
+        <div id="human-player">
+            
+             <img id="rock" class="choice" title="Click to choose ROCK" src="../images/rock.jpeg" onclick="game.play('rock')" alt="Rock"/>
+            <img id="paper" class="choice" title="Click to choose PAPER" src="../images/paper.jpeg" onclick="game.play('paper')" alt="Paper"/>
+            <img id="scissors" class="choice" title="Click to choose SCISSORS" src="../images/scissors.jpeg" onclick="game.play('scissors')" alt="Scissors"/>
+
+            <img hidden id="rock1"  title="Click to choose ROCK" src="../images/rock.jpeg"  alt="Rock"/>
+            <img hidden id="paper1"  title="Click to choose PAPER" src="../images/paper.jpeg" alt="Paper"/>
+            <img hidden id="scissors1"  title="Click to choose SCISSORS" src="../images/scissors.jpeg"  alt="Scissors"/>
+        <p>You</p>
+        </div>
+         
+    </div>
+   <script src="../scripts/main.js"></script>
+    <script src="../scripts/player_vs_computer.js"></script>
+    
+</body>
+</html>
